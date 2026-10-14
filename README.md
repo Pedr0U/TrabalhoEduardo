@@ -280,12 +280,6 @@ TrabalhoEduardo/
 - Troca de tema (dia/noite) verificada.
 - Pausa e retomada do jogo (tecla Home e retorno) verificadas.
 
-## Screenshots ou GIF de execucao
-
-*(Espaco reservado. Insira aqui as capturas de tela ou o GIF do jogo em
-execucao. Sugestao: uma captura da partida no modo dia, uma no modo noite e uma
-da tela de resultados.)*
-
 ## Observacoes
 
 - O projeto foi escrito a partir do capitulo, e nao copiado de um repositorio
