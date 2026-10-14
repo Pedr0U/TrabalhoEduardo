@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- The two colours added in Section 6.4.4 of the book. The daytime theme
+         of the game uses exactly the same hex values (see GameTheme.java), so
+         they are declared here to keep the book's suggestion visible and
+         available to any future layout. -->
+    <color name="dark">#FF1976D2</color>
+    <color name="light">#FFFFE100</color>
+
+    <!-- [BONUS] item 6: colours of the night theme -->
+    <color name="night_sky">#FF05070F</color>
+    <color name="night_horizon">#FF111A33</color>
+    <color name="night_cannon">#FFD8E4F0</color>
+
+    <!-- Launcher icon background -->
+    <color name="ic_launcher_background">#FF102030</color>
+
+</resources>

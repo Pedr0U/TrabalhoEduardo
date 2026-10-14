@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    fragment_main.xml
+    Holds the custom CannonView that draws and controls the game. The custom
+    component is referenced by its fully qualified class name, as required by
+    Chapter 6 of the book.
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pedrou.cannongame.MainActivityFragment">
+
+    <view
+        android:id="@+id/cannonView"
+        class="com.pedrou.cannongame.CannonView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>

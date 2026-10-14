@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        AppTheme.
+
+        Section 6.4.2 of the book removes the app title and the app bar and
+        makes the app full screen. The book inherits from
+        "Theme.Material.Light.NoActionBar.Fullscreen"; because this project
+        uses AndroidX and therefore AppCompatActivity, the theme must inherit
+        from an AppCompat theme. The three items requested by the book are
+        kept unchanged.
+    -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cannon Game</string>
+
+    <!-- Strings from Chapter 6 of the book -->
+    <string name="results_format">Shots fired: %1$d\nTotal time: %2$.1f</string>
+    <string name="reset_game">Reset Game</string>
+    <string name="win">You win!</string>
+    <string name="lose">You lose!</string>
+    <string name="time_remaining_format">Time remaining: %.1f seconds</string>
+
+    <!-- [BONUS] Strings used by the extra features -->
+    <string name="results_bonus_format">Score: %1$d\nLevel reached: %2$d\nAccuracy: %3$.1f%%\nHigh score: %4$d</string>
+    <string name="new_high_score">NEW HIGH SCORE!</string>
+    <string name="ranking_header">TOP SCORES</string>
+
+    <string name="hud_score_format">SCORE %1$d   x%2$d</string>
+    <string name="hud_level_format">LEVEL %1$d   STREAK %2$d</string>
+    <string name="hud_high_format">HIGH SCORE %1$d</string>
+    <string name="hud_power_format">POWER %1$.2f</string>
+    <string name="hud_sound_on">SOUND</string>
+    <string name="hud_sound_off">MUTED</string>
+
+</resources>

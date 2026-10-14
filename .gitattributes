@@ -1,0 +1,25 @@
+# ---------------------------------------------------------------------------
+# Line ending policy for this repository.
+#
+# The important entry is "gradlew": it is a shell script, so it must keep LF
+# endings even when it is checked out on Windows, otherwise it stops working
+# on Linux and macOS. "gradlew.bat" is the opposite case.
+# ---------------------------------------------------------------------------
+
+* text=auto eol=lf
+
+gradlew text eol=lf
+gradlew.bat text eol=crlf
+*.sh text eol=lf
+
+# Binary files must never be line-ending converted.
+*.jar binary
+*.png binary
+*.wav binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.apk binary
+*.aab binary
+*.keystore binary
+*.jks binary

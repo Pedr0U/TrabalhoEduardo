@@ -1,0 +1,9 @@
+// Top-level build file for the Cannon Game project.
+// Configuration shared by all sub-projects/modules.
+//
+// The Android Gradle Plugin version below is the latest stable release and it
+// matches the version bundled with the Android Studio installed for this
+// project (AGP 9.x, Gradle 9.x).
+plugins {
+    id 'com.android.application' version '9.4.1' apply false
+}
